@@ -26,7 +26,7 @@ Draw Monte Carlo samples from the posterior distribution based on the graphical 
 
 `omega_save_adjusted <- adjusted_fcn(dim_p, omega_save, nmc, CI)`
 
-## Output of function `GR2D2_E`
+## Output of the function `GR2D2_E`
 `omega_save`: A (p by p by nmc) matrices of saved posterior samples of precision matrix.
 
 `psi_save`: A (p by p by nmc) vector of saved samples of psi
