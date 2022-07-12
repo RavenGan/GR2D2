@@ -15,7 +15,7 @@ library(matrixcalc) # Check positive definiteness
 library(matlib)
 
 #  Sampling for graphical R2D2
-GR2D2_E <- function(S, n, burnin, nmc, eps = 1e-7){
+GR2D2_E <- function(S, n, burnin, nmc, eps = 1e-20){
   # Input:
   #   S = Y'*Y: sample covariance matrix * n
   #   n: sample size
